@@ -1,0 +1,21 @@
+name = "vless-sever-amazon" # todo
+#name = "cf-worker-connect-test" # todo
+#main = "test/worker/cf-cdn-cgi-trace2.js"
+#main = "test/worker/worker-connect-test.js"
+main = "_worker.js"
+compatibility_date = "2023-05-26"
+[[routes]]
+pattern = "amazon.oppaiplayer.my.id" 
+custom_domain = true
+[[routes]]
+pattern = "quiz.vidio.com.amazon.oppaiplayer.my.id" 
+custom_domain = true
+ 
+[vars]
+# UUID = "d342d11e-d424-4583-b36e-524ab1f0afa4"
+# PROXYIP = "1.2.3.4"
+# DNS_RESOLVER_URL = "https://cloudflare-dns.com/dns-query"
+# NODE_ID = "1"
+# API_TOKEN = "example_dev_token"
+# API_HOST = "api.v2board.com"
+UUID = "82913a0d-6349-435d-988b-fdbd52943826"
